@@ -32,7 +32,7 @@ class employee extends Person
     {
         return $this->department;
     }
-    final private function GenerateEmployeeID()
+    private function GenerateEmployeeID()
     {
         static $IDGen = 1;
         return $IDGen++;

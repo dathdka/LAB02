@@ -26,22 +26,20 @@
                 <!-- --------------------------------------------->
             <nav id ="nav-3">
             <?php
-                echo "<h1>-------------------------------</h1>";
-                $employee_a = new employee("Tieu Anh Khoa", 234, "Lao cong");
-                echo "employee ID: ". $employee_a->GetEmployeeID()."<br/>";
-                echo "employee Name: ". $employee_a->getName()."<br/>";
-                echo "employee Department: ". $employee_a->GetDepartment()."<br/>";
-                echo "<h1>-------------------------------</h1>";
+                 $employee_b = new employee("Thai Trung Kien", 234, "Bao ve");
+                 echo "employee ID: ". $employee_b->GetEmployeeID()."<br/>";
+                 echo "employee Name: ". $employee_b->getName()."<br/>";
+                 echo "employee Department: ". $employee_b->GetDepartment()."<br/>";
             ?>
             </nav>
                 <!-- --------------------------------------------->
             <nav id ="nav-4">
             <?php
-                $employee_b = new employee("Thai Trung Kien", 234, "Bao ve");
-                echo "employee ID: ". $employee_b->GetEmployeeID()."<br/>";
-                echo "employee Name: ". $employee_b->getName()."<br/>";
-                echo "employee Department: ". $employee_b->GetDepartment()."<br/>";
-            ?>
+            $employee_b = new employee("Tieu Anh Khoa", 456, "lao cong");
+            echo "employee ID: ". $employee_b->GetEmployeeID()."<br/>";
+            echo "employee Name: ". $employee_b->getName()."<br/>";
+            echo "employee Department: ". $employee_b->GetDepartment()."<br/>";
+        ?>
             </nav>
             ?>
         </div>
